@@ -4,6 +4,9 @@
 
 En este programa trabajaremos con recetas de cocina que involucran ingredientes y equipamiento.
 
+## Solución
+Se aplica DIP, haciendo que ahora IPrinter, y sus implementaciones, dependan de una interfaz IRecipe, podiendo así sustituir IRecipe por cualquier clase que la implemente, que tenga un método GetTextToPrint cambiará dependiendo de lo que se quiera imprimir en cada clase.
+
 ## Desafío(s)
 
 Este ejemplo es el mismo que hemos utilizado hasta ahora, pero el código tiene modificaciones resultantes de aplicar los principio y patrones anteriores.
